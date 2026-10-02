@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleDevelopmentRegion</key>
+  <string>en</string>
+  <key>CFBundleDisplayName</key>
+  <string>Legacy Surf</string>
+  <key>CFBundleExecutable</key>
+  <string>LegacySurf</string>
+  <key>CFBundleIconFile</key>
+  <string>Icon.png</string>
+  <key>CFBundleIconFiles</key>
+  <array>
+    <string>Icon.png</string>
+    <string>Icon@2x.png</string>
+    <string>Icon-72.png</string>
+    <string>Icon-72@2x.png</string>
+    <string>Icon-60</string>
+    <string>Icon-76</string>
+    <string>Icon-83.5</string>
+  </array>
+  <key>UIPrerenderedIcon</key>
+  <true/>
+  <key>UIAppFonts</key>
+  <array>
+    <string>Lucide.ttf</string>
+  </array>
+  <key>CFBundleIdentifier</key>
+  <string>com.legacyreborn.legacysurf</string>
+  <key>CFBundleInfoDictionaryVersion</key>
+  <string>6.0</string>
+  <key>CFBundleName</key>
+  <string>Legacy Surf</string>
+  <key>CFBundlePackageType</key>
+  <string>APPL</string>
+  <key>CFBundleShortVersionString</key>
+  <string>@VERSION@</string>
+  <key>CFBundleVersion</key>
+  <string>@BUNDLE_VERSION@</string>
+  <key>SurfBaseVersion</key>
+  <string>@SURF_BASE_VERSION@</string>
+  <key>SurfCompatibilityVersion</key>
+  <integer>@COMPATIBILITY_VERSION@</integer>
+  <key>CFBundleSupportedPlatforms</key>
+  <array>
+    <string>iPhoneOS</string>
+  </array>
+  <key>CFBundleURLTypes</key>
+  <array>
+    <dict>
+      <key>CFBundleURLName</key>
+      <string>com.legacyreborn.legacysurf</string>
+      <key>CFBundleURLSchemes</key>
+      <array>
+        <string>legacysurf</string>
+        <string>legacysurf-http</string>
+        <string>legacysurf-https</string>
+      </array>
+    </dict>
+  </array>
+  <key>LSRequiresIPhoneOS</key>
+  <true/>
+  <key>NSCameraUsageDescription</key>
+  <string>Scan a Surf server pairing code.</string>
+  <key>MinimumOSVersion</key>
+  <string>6.0</string>
+  <key>UIDeviceFamily</key>
+  <array>
+    <integer>1</integer>
+    <integer>2</integer>
+  </array>
+  <key>UIStatusBarHidden</key>
+  <true/>
+  <key>UISupportedInterfaceOrientations</key>
+  <array>
+    <string>UIInterfaceOrientationPortrait</string>
+    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    <string>UIInterfaceOrientationLandscapeLeft</string>
+    <string>UIInterfaceOrientationLandscapeRight</string>
+  </array>
+  <key>UISupportedInterfaceOrientations~ipad</key>
+  <array>
+    <string>UIInterfaceOrientationPortrait</string>
+    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    <string>UIInterfaceOrientationLandscapeLeft</string>
+    <string>UIInterfaceOrientationLandscapeRight</string>
+  </array>
+</dict>
+</plist>

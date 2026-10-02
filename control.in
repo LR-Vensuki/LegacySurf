@@ -1,0 +1,13 @@
+Package: com.legacyreborn.legacysurf
+Name: Legacy Surf
+Version: @VERSION@
+X-Surf-Base-Version: @SURF_BASE_VERSION@
+X-Surf-Compatibility: @COMPATIBILITY_VERSION@
+Architecture: iphoneos-arm
+Description: Surf, legacified: the Surf remote browser with a skeuomorphic iOS 6 look. Websites run in Chromium on your computer (Surf server @SURF_BASE_VERSION@) and stream to the device. On iOS 6 the app wears classic Safari chrome; iOS 7 and later keep the original flat design.
+Maintainer: LegacyReborn Project
+Author: LegacyReborn Project (fork of Surf by seg6)
+Section: Networking
+Priority: optional
+Depends: firmware (>= 6.0)
+Tag: role::enduser, purpose::uikit

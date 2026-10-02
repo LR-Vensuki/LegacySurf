@@ -1,0 +1,8 @@
+# Theos
+.theos/
+packages/
+# Generated from control.in and Info.plist.in on every build
+/control
+/Resources/Info.plist
+# Python
+__pycache__/
